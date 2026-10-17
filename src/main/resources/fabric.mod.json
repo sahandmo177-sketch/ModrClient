@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "modr_schematic",
+  "version": "${version}",
+  "name": "Modr Client Schematic",
+  "description": "Schematic preview helpers and training HUD for private test worlds.",
+  "authors": ["Modr"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["gg.modr.schematic.ModrClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
